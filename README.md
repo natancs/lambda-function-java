@@ -37,7 +37,7 @@ To use it depends on your lambda function configuration.
 
 The GeneralShortener function
 ```sh
-https://functionUrl.com
+https://i1c86sb7gl.execute-api.us-east-1.amazonaws.com/
 Content-Type: application/json
 
 {
@@ -53,7 +53,7 @@ Return
 
 The RedirectShortener function
 ```sh
-https://functionUrl.com/{code}
+https://i1c86sb7gl.execute-api.us-east-1.amazonaws.com/{code}
 
 Return
 Redirect to the original link

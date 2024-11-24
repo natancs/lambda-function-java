@@ -1,0 +1,12 @@
+@baseURL = "Lambda function URL or API Gateway URL"
+@id = "ID Da Incurtada"
+###
+POST {{baseURL}}/create
+Content-Type: application/json
+
+{
+  "originalUrl": "https://teste",
+  "expirationTime": "1728529200000"
+}
+###
+GET {{baseURL}}/{{id}}
